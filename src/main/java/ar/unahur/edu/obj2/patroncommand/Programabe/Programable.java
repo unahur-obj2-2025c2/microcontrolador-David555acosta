@@ -1,6 +1,8 @@
-package ar.unahur.edu.obj2.patroncommand;
+package ar.unahur.edu.obj2.patroncommand.Programabe;
 
 import java.util.List;
+
+import ar.unahur.edu.obj2.patroncommand.Operables.Operable;
 
 public interface Programable {
     void run(List<Operable> operaciones);
